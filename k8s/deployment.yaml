@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: ajilash25/python-flask-app:1
+        image: ajilash25/static-website:2
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
